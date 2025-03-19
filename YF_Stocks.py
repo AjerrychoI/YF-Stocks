@@ -57,7 +57,8 @@ with pd.ExcelWriter('stock_data.xlsx') as writer:  # 創建一個 Excel writer �
             hist_data['Close'].plot(title=f"{stock_name} ({ticker_symbol}) 股價走勢")
             plt.xlabel('日期')
             plt.ylabel('收盤價')
-            plt.savefig(f"{ticker_symbol}_price_chart.png")
+            # 強制使用 .jpg 副檔名
+            plt.savefig(f"{stock_name}_{ticker_symbol}_price_chart.jpg")
             plt.close()  # 關閉當前圖表，避免重疊
             print(f"{stock_name} ({ticker_symbol}) 股價走勢圖已成功保存！")
         except Exception as e:
