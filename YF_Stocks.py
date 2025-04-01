@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-os.chdir(r'C:\Users\JerryCho0702\Desktop\Python\YF-Stocks')  # 設置工作目錄
+os.chdir(r'C:\Users\JerryCho0702\Desktop\Python\Repository\Financial\YF-Stocks')  # 設置工作目錄
 
 ticker_symbols = {  # 定義目標股票代碼和對應的中文股名
     '1519.TW': '華城',
