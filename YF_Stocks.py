@@ -8,11 +8,9 @@ os.chdir(r'C:\Users\JerryCho0702\Desktop\Python\Repository\Financial\YF-Stocks')
 
 ticker_symbols = {  # 定義目標股票代碼和對應的中文股名
     '1519.TW': '華城',
-    '2059.TW': '川湖',
     '2330.TW': '台積電',
     '2449.TW': '京元電子',
-    '3017.TW': '奇鋐',
-    '4129.TW': '聯合',
+    '3022.TW': '威強電',
     '5203.TW': '訊連',
     '2383.TW': '台光電',
     '2368.TW': '金像電',
